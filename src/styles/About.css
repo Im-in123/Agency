@@ -1,0 +1,149 @@
+.abt-page {
+  background-color: var(--global-color-yellow-0);
+}
+
+.abt-page-content {
+  padding: 25px;
+  padding-top: 7rem;
+}
+
+.two-tin {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+}
+
+.two-tin-img {
+  width: 50%;
+}
+
+.two-tin-img img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 5rem;
+}
+
+.two-tin-other {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.two-tin-other-2 {
+  margin-top: 2rem;
+}
+.two-tin-other-3 {
+  margin-top: 2rem;
+}
+
+.two-tin-other-3 li {
+  list-style: "-    ";
+  padding: 10px;
+}
+
+.abt-page-clients {
+  background-color: var(--global-color-white-1);
+}
+
+.abt-page-clients-content {
+  padding: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 200px;
+}
+
+.rep-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.rep {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.rep img {
+  max-width: 70%;
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.abt-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  padding-top: 5rem;
+}
+
+.abt-item {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: flex-start;
+}
+
+.star-rate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.star-rate svg {
+  fill: gold;
+}
+.item-im {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.item-im img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .abt-page-content {
+    padding-top: 4rem;
+  }
+
+  .two-tin {
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .two-tin-img {
+    width: 100%;
+  }
+
+  .two-tin-img img {
+    top: 3rem;
+  }
+
+  .two-tin-other {
+    flex-direction: column;
+    width: 100%;
+  }
+  .two-tin-other-1 {
+    margin-top: 1rem;
+  }
+
+  .abt-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rep-cont {
+    flex-direction: column;
+  }
+}

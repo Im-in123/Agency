@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      
+            <url>
+              <loc>https://webprody.web.app/</loc>
+              <changefreq>weekly</changefreq>
+            </url>
+          
+            <url>
+              <loc>https://webprody.web.app/home</loc>
+              <changefreq>weekly</changefreq>
+            </url>
+          
+            <url>
+              <loc>https://webprody.web.app/services</loc>
+              <changefreq>weekly</changefreq>
+            </url>
+          
+            <url>
+              <loc>https://webprody.web.app/contact</loc>
+              <changefreq>weekly</changefreq>
+            </url>
+          
+            <url>
+              <loc>https://webprody.web.app/about</loc>
+              <changefreq>weekly</changefreq>
+            </url>
+          
+    </urlset>

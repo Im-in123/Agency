@@ -1,0 +1,192 @@
+:root {
+  --global-color-yellow-0: #fbe8a6;
+  --global-color-yellow-1: #f3d97a;
+  --global-color-2: #2c2927;
+  --global-color-3: #534a45;
+  --global-color-white-1: #f2f1e5;
+  --global-color-white-0: #ffffff;
+  --global-color-6: #f2f5f7;
+  --global-color-7: #424242;
+  --global-color-black-0: #000000;
+  --global-color-pink: rgb(204, 47, 73);
+  --global-color-red: red;
+  --global-color-blue: blue;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--global-color-3);
+  background-image: url("../assets/images/backy.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: var(--global-color-white-0);
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Create an overlay with opacity */
+body::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vw;
+
+  z-index: -1;
+}
+
+.big-h {
+  font-size: 2.5em;
+  /* font-size: 52px; */
+  font-family: "DM Serif Display", serif;
+}
+
+.mid-h {
+  /* font-size: 25px; */
+  font-size: 1.5em;
+  font-family: "DM Serif Display", serif;
+}
+
+.small-h {
+  font-size: 1em;
+  font-family: "DM Serif Display", serif;
+}
+
+.big-hh {
+  font-size: 2.2em;
+  font-family: "DM Serif Display", serif;
+}
+
+.mid-hh {
+  font-size: 1.9em;
+  font-family: "DM Serif Display", serif;
+}
+
+.small-hh {
+  font-size: 1.5em;
+  font-family: "DM Serif Display", serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.flex {
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flex-space {
+  justify-content: space-evenly;
+}
+
+.b {
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h3 {
+  color: var(--global-color-black-0);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("../assets/images/backy-small.jpg");
+  }
+  body::before {
+    height: 100%;
+  }
+
+  .big-h {
+    font-size: 1.5em;
+    /* font-size: 52px; */
+    font-family: "DM Serif Display", serif;
+  }
+
+  .mid-h {
+    font-size: 1em;
+    font-family: "DM Serif Display", serif;
+  }
+
+  .small-h {
+    font-size: 0.9em;
+  }
+  .big-hh {
+    font-size: 1.5em;
+    font-family: "DM Serif Display", serif;
+  }
+
+  .mid-hh {
+    font-size: 1.3em;
+    font-family: "DM Serif Display", serif;
+  }
+
+  .small-hh {
+    font-size: 1.2em;
+    font-family: "DM Serif Display", serif;
+  }
+}
+.black {
+  color: var(--global-color-black-0);
+}
+
+.white {
+  color: var(--global-color-white-0);
+  fill: var(--global-color-white-0);
+}
+
+.pink {
+  color: var(--global-color-pink);
+  fill: var(--global-color-pink);
+}
+
+.blue {
+  color: var(--global-color-blue);
+  fill: var(--global-color-blue);
+}
+
+.red {
+  color: var(--global-color-red);
+  fill: var(--global-color-red);
+}

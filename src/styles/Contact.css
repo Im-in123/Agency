@@ -1,0 +1,36 @@
+.contact-page {
+  background-color: var(--global-color-yellow-0);
+}
+
+.contact-page-content {
+  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info div {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+.contact-info > div > svg {
+  margin-right: 20px;
+}
+.contact-page-content .soc {
+  justify-content: flex-start;
+  margin-top: 4rem;
+}
+.contact-page-content .soc h1 {
+  padding-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-page-content {
+    padding: 2rem;
+  }
+}
